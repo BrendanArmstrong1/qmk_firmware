@@ -11,34 +11,34 @@
          "KC_A"           , "KC_O"           , "KC_E"   , "KC_U"   , "KC_I",
          "KC_D"           , "KC_H"           , "KC_T"   , "KC_N"   , "KC_S",
 
-         "LT(2,KC_SCLN)"  , "KC_Q"           , "KC_J"   , "KC_K"   , "KC_X",
+         "OSL(2)"         , "KC_Q"           , "KC_J"   , "KC_K"   , "KC_X",
          "KC_B"           , "KC_M"           , "KC_W"   , "KC_V"   , "KC_Z",
 
-         "KC_LSFT"        , "OSL(1)",
+         "OSM(MOD_LSFT)"  , "OSL(1)",
          "KC_SPC"         , "KC_LCTL"
         ],
-        ["KC_GRV"         , "KC_LT"          , "KC_GT"  , "KC_SLSH", "KC_PLUS",
+        ["KC_GRV"         , "KC_LT"          , "KC_GT"  , "KC_BSLS", "KC_PLUS",
          "KC_MINS"        , "KC_LBRC"        , "KC_RBRC", "KC_AT"  , "KC_BSPC",
 
          "KC_ESC"         , "KC_HASH"        , "KC_TILD", "KC_ASTR", "KC_TAB",
-         "KC_ENT"         , "KC_LCBR"        , "KC_RCBR", "KC_QUES", "KC_SCLN",
+         "KC_ENT"         , "KC_LCBR"        , "KC_RCBR", "KC_QUES", "KC_SLSH",
 
-         "KC_COLN"        , "KC_UNDS"        , "KC_BSLS", "KC_AMPR", "KC_PIPE",
+         "KC_COLN"        , "KC_CIRC"        , "KC_UNDS", "KC_AMPR", "KC_PIPE",
          "KC_EQL"         , "KC_LPRN"        , "KC_RPRN", "KC_DLR" , "KC_EXLM",
 
-         "KC_LSFT"        , "OSL(1)",
+         "OSM(MOD_LSFT)"  , "OSL(1)",
          "KC_SPC"         , "KC_LCTL"
         ],
         ["OSL(3)"         , "KC_COMM"        , "KC_DOT" , "KC_SLSH", "KC_PLUS",
          "KC_MINS"        , "KC_1"           , "KC_2"   , "KC_3"   , "KC_BSPC",
 
-         "KC_INS"         , "KC_DEL"         , "KC_PERC", "KC_ASTR", "KC_CIRC",
+         "KC_INS"         , "KC_DEL"         , "KC_PERC", "KC_ASTR", "KC_SCLN",
          "KC_ENT"         , "KC_4"           , "KC_5"   , "KC_6"   , "KC_0",
 
          "KC_TRNS"        , "KC_LEFT"        , "KC_DOWN", "KC_UP"  , "KC_RGHT",
          "KC_EQL"         , "KC_7"           , "KC_8"   , "KC_9"   , "KC_LGUI",
 
-         "KC_LSFT"        , "KC_LALT",
+         "OSM(MOD_LSFT)"  , "KC_LALT",
          "KC_SPC"         , "KC_LCTL"
         ],
         ["KC_TRNS"        , "KC_F1"          , "KC_F2"  , "KC_F3"  , "KC_F4",
