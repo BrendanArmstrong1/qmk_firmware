@@ -7,7 +7,6 @@ BOOTLOADER = atmel-dfu
 # Build Options
 #   change yes to no to disable
 #
-# CONVERT_TO=elite_pi
 DYNAMIC_MACRO_ENABLE = yes  # Enable dynamic macros
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Mouse keys

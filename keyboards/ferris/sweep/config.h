@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DIRECT_PINS_RIGHT                                                                                    \
     {                                                                                                        \
-        {D4, D0, D1, F6, F5}, {D7, B3, C6, B1, F7}, {E6, B4, B5, B6, B2}, { D5, C7, F1, NO_PIN, NO_PIN } \
+        {D1, D0, D4, F6, F5}, {D7, B3, C6, B1, F7}, {B5, B4, E6, B6, B2}, { D5, C7, F1, NO_PIN, NO_PIN } \
     }
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
@@ -42,6 +42,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SOFT_SERIAL_PIN D2
 
 #define EE_HANDS
+/* qmk flash -kb <keyboard> -km <keymap> -bl <bootloader>
+ * My bootloader is dfu-split-left, dfu-split-right
+*/
 
 /* Top left key on left half */
 #define BOOTMAGIC_LITE_ROW 0
