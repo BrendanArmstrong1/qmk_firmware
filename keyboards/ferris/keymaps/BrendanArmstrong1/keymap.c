@@ -33,7 +33,7 @@
          "KC_LCTL",
          "KC_LGUI",
         ],
-        ["OSL(3)" , "KC_COMM"      , "KC_DOT" , "KC_SCLN", "KC_PLUS",
+        ["MO(3)"  , "KC_COMM"      , "KC_DOT" , "KC_SCLN", "KC_PLUS",
          "KC_MINS", "KC_1"         , "KC_2"   , "KC_3"   , "KC_BSPC",
 
          "KC_INS" , "KC_SLSH"      , "KC_CIRC", "KC_ASTR", "KC_TAB",
@@ -50,14 +50,14 @@
         ["KC_TRNS", "KC_F1"        , "KC_F2"  , "KC_F3"  , "KC_F4",
          "KC_DEL" , "DM_REC1"      , "DM_PLY1", "KC_BTN2", "KC_WH_U",
 
-         "KC_F5"  , "KC_F6"        , "KC_F7"  , "KC_F8"  , "KC_F9",
+         "KC_F5"  , "KC_F5"        , "KC_F6"  , "KC_F7"  , "KC_F8",
          "KC_MS_L", "KC_MS_D"      , "KC_MS_U", "KC_MS_R", "KC_BTN1",
 
-         "KC_F10" , "KC_F11"       , "KC_F12" , "KC_PSCR", "KC_CAPS",
+         "KC_TRNS", "KC_F9"        , "KC_F10" , "KC_F11" , "KC_F12",
          "KC_WH_D", "DM_REC2"      , "DM_PLY2", "KC_WH_R", "KC_ACL0",
 
-         "KC_LALT", "KC_LSFT",
-         "KC_DEL" , "TO(4)"
+         "KC_LALT", "KC_CAPS",
+         "KC_PSCR", "TO(4)"
          "KC_LCTL",
          "KC_LGUI",
         ],
