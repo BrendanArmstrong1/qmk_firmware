@@ -32,7 +32,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // The default is 40
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 100
 
-#define ONESHOT_TIMEOUT 200 /* Time (in ms) before the one shot key is released */
+#define ONESHOT_TIMEOUT 150 /* Time (in ms) before the one shot key is released */
+#define NO_KEYMAP_INSTROSPECTION
+
+/* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
+#define DEBOUNCE 5
 
 // Pick good defaults for enabling homerow modifiers
-#define TAPPING_TERM 175
+#define TAPPING_TERM 400
+#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD

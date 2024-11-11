@@ -35,8 +35,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         {D1, D0, D4, F6, F5}, {D7, B3, C6, B1, F7}, {B5, B4, E6, B6, B2}, { D5, C7, F1, NO_PIN, NO_PIN } \
     }
 
-/* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
 
 /* serial.c configuration for split keyboard */
 #define SOFT_SERIAL_PIN D2
