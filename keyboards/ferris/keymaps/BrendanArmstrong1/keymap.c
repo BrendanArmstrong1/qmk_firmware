@@ -14,7 +14,8 @@ enum ferris_layers {
   _SYMBOL,
   _MATH,
   _SPECIAL,
-  _FUNC
+  _FUNC,
+  _GAMING
 };
 
 enum ferris_tap_dances {
@@ -26,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_QUOT, KC_COMM, KC_DOT, KC_P, KC_Y,                               KC_F,    KC_G,        KC_C,    KC_R, KC_L,
            KC_A,    KC_O,   KC_E, KC_U, KC_I,                               KC_D,    KC_H,        KC_T,    KC_N, KC_S,
          OSL(2),    KC_Q,   KC_J, KC_K, KC_X,                               KC_B,    KC_M,        KC_W,    KC_V, KC_Z,
-        MT(MOD_LALT, KC_BSPC), OSM(MOD_LSFT), MO(1),                        KC_SPC, KC_LCTL, MT(MOD_LGUI, KC_BSPC)
+               KC_LALT, OSM(MOD_LSFT), MO(1),                             KC_SPC, KC_LCTL, KC_LGUI
   ),
 
   [_SYMBOL] = LAYOUT( /* [> SYMBOL <] */
@@ -51,10 +52,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_FUNC] = LAYOUT( /* [> FUNCTION <] */
-    KC_TRNS,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                  KC_F1,  KC_F2,  KC_F3,  KC_F4, KC_F5,
-    KC_TRNS,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                  KC_F6,  KC_F7,  KC_F8,  KC_F9, KC_F10,
+    KC_TRNS,KC_TRNS, KC_TRNS, KC_TRNS, DF(0),                  KC_F1,  KC_F2,  KC_F3,  KC_F4, KC_F5,
+    KC_TRNS,KC_TRNS, KC_TRNS, KC_TRNS, DF(5),                  KC_F6,  KC_F7,  KC_F8,  KC_F9, KC_F10,
     KC_TRNS,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                  KC_F11, KC_F12, KC_F13, KC_F14, KC_F15,
             KC_LALT, KC_CAPS, KC_PSCR,                           KC_TRNS, KC_TRNS, KC_TRNS
+  )
+  [_GAMING] = LAYOUT( /* [> FUNCTION <] */
+       KC_QUOT,  KC_COMM,        KC_DOT,  KC_P,   KC_Y,    KC_F,        KC_G,    KC_C, KC_R, KC_L,
+          KC_A,     KC_O,          KC_E,  KC_U,   KC_I,    KC_D,        KC_H,    KC_T, KC_N, KC_S,
+        OSL(2),     KC_Q,          KC_J,  KC_K,   KC_X,    KC_B,        KC_M,    KC_W, KC_V, KC_Z,
+                         KC_LCTL, KC_LSFT, MO(1),           KC_SPC, KC_LALT, KC_LGUI
   )
 };
 /* clang-format on */
